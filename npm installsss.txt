@@ -1,0 +1,18 @@
+npm i express connect-flash bcryptjs express-handlebars express-session method-override mongoose passport passport-local
+
+bcryptjs modulo de cifrado, para cifrar contraseñas
+express-handlebars crear vistas handlebars hbs
+connect-flash es para conectar las vistas, ejm: mandar mensajes de contraseña incorrecta
+express-session guardar datos del servidor, ejm: que el usuario siga logeado
+method-override enviar peticiones lit, put desde la vista
+mongoose para manejar la bd de mongodb
+passport es para autenticar al usuario, trabaja junto a bcryptjs
+passport-local es para decirle que usaremos una bd local
+
+
+npm i dotenv handlebars npm-check-updates -D
+
+dotenv: Para usar variables de entorno en el programa
+handlebars: Soluciona algunos errores de express-handlebars
+npm-check-update: Ayuda a ver si hay actualizaciones de los modulos
+
